@@ -8,11 +8,10 @@ jobs:
     name: Run Workflow between Repositories
     runs-on: ubuntu-latest
     steps:
-      - name: Workflow from one Repo to Another Repo
-        run: |
-          echo "WorK Flow one Repo  to Another Repo"
-          #sleep 10s
-      - uses: convictional/trigger-workflow-and-wait@v1.0.1     #v1.3.0
+      #- name: Workflow from one Repo to Another Repo
+       #  echo "WorK Flow one Repo  to Another Repo"
+         # #sleep 10s
+      - uses: convictional/trigger-workflow-and-wait@v1.3.0
         with:
           owner: Vijai Kannan
           repo: hello-world-javascript-action
