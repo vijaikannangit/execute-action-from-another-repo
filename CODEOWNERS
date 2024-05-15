@@ -4,7 +4,7 @@
 # These owners will be the default owners for everything in the repo.
 *       @defunkt
 
-#If a pull request only touches javascript files, only these owners
+# If a pull request only touches python files, only these owners
 # will be requested to review.
 *.py    @vijaikannangit @github/js
 
@@ -12,4 +12,4 @@
 docs/*  vijaik.nd@gmail.com
 
 # Approve all md files by the given user
-*.md @thilagavathygit
+*.md @Thilaga-26
