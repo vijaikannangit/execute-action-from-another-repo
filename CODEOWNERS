@@ -2,16 +2,16 @@
 # Each line is a file pattern followed by one or more owners.
 
 # These owners will be the default owners for everything in the repo.
-#*       @defunkt
+# *       @defunkt
 
 # If a pull request only touches python files, only these owners
 # will be requested to review.
-#*.py    @vijaikannangit @github/js
-*.py    @vijaikannangit
+# *.py    @vijaikannangit @github/js
+* .py    @vijaikannangit
 
 # You can also use email addresses if you prefer.
-docs/*  vijaik.nd@gmail.com
+# docs/*  vijaik.nd@gmail.com
 
 # Approve all md files by the given user
-#*.md @Thilaga-26
+# *.md @Thilaga-26
 *.md @vijaikannangit
