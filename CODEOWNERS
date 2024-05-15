@@ -7,7 +7,7 @@
 # If a pull request only touches python files, only these owners
 # will be requested to review.
 # *.py    @vijaikannangit @github/js
-* .py    @vijaikannangit
+# * .py    @vijaikannangit -->
 
 # You can also use email addresses if you prefer.
 # docs/*  vijaik.nd@gmail.com
